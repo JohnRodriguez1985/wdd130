@@ -1,19 +1,21 @@
 /* These are W3 lessons*/
-@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+ header {
+    height: 60px;
+    width: auto;
+    background-color: #333;
+ }
+ 
+ul {
+     list-style-type: none;
+}
 
 li, a, button {
     text-decoration: none;
-    font-family: "Lexend"; sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 500px;
     font-size: 14px;    
     color: #333;    
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;    
-    padding: 30px 10%;
 }
 
 h1  { 
