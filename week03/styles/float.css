@@ -4,6 +4,8 @@ main {
     background-color: #eee;
     padding: 1rem;
     border: 1px solid rgb(0 0 0 / .1);
+    display: flow-root;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 p {
@@ -11,7 +13,7 @@ p {
 }
 
 .col1 img {
-    float: right;
+    float: left;
     margin: 0 0 15px 15px;
     border: 1px solid rgba(0 0 0 / .3);
     box-shadow: 0 0 30px #777;
@@ -23,4 +25,8 @@ footer {
     /* Remove the comment below and observe the results. */
 
     /* clear: both; */
+}
+
+.clear {
+    clear: both;
 }
