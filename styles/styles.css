@@ -1,26 +1,35 @@
 /* These are W3 lessons*/
 
  header {
-    height: 60px;
+    height: 50px;
     width: auto;
-    background-color: #333;
+    background-color: #f7f6f6;
  }
- 
-ul {
-     list-style-type: none;
+
+ul, li {
+    list-style: none;
 }
 
-li, a, button {
+ul, li, a {
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 500px;
     font-size: 14px;    
-    color: #333;    
+    color: #0e6a6d;   
+    margin-right: 15px;
+    float: inline-start;
 }
 
-h1  { 
-    margin-top: 100px;
+ul, li:hover a{
+    color: rgb(255, 0, 0); 
 }
+
+.logo {
+    margin-left: 20px;
+    margin-top: 2px;
+    float: left;
+}
+
 
 main { 
     max-width: 840px;
@@ -32,16 +41,18 @@ aside {
     width: 320px;
     margin: 16px;
     border: 1px;
-    padding: 16px;
+    padding: 20px;
     background-color: #eee;
     color: #333;
-    text-align: center;
+    text-align: left;
 }
 
+
 aside img { 
-    width: 200px;
+    width: 300px;
     height: auto;
 }
+
 
 p { 
     padding: 0px;
