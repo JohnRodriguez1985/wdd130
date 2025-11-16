@@ -1,34 +1,52 @@
 /* These are W3 lessons*/
 
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
  header {
     height: 50px;
     width: auto;
     background-color: #f7f6f6;
  }
 
-ul, li {
+ .logo {
+    margin-left: 20px;
+    margin-top: 2px;
+    margin-right: 30px;
+    float: left;
+}
+
+.ul01, .li01 {
     list-style: none;
 }
 
-ul, li, a {
+.ul01, .li01, a {
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 500px;
     font-size: 14px;    
     color: #0e6a6d;   
     margin-right: 15px;
+    margin-top: 5px;
     float: inline-start;
 }
 
-ul, li:hover a{
+.ul01, .li01:hover a{
     color: rgb(255, 0, 0); 
 }
 
-.logo {
-    margin-left: 20px;
-    margin-top: 2px;
-    float: left;
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;  
 }
+
+.ul02, .li02 {
+    list-style: none;
+}
+
 
 
 main { 
@@ -38,12 +56,8 @@ main {
 }
 
 aside { 
-    width: 320px;
-    margin: 16px;
-    border: 1px;
-    padding: 20px;
-    background-color: #eee;
-    color: #333;
+    width: 340px;
+    height: auto;
     text-align: left;
 }
 
@@ -53,9 +67,19 @@ aside img {
     height: auto;
 }
 
+.box {
+    margin: 16px;
+    border: 1px;
+    padding: 20px;
 
-p { 
-    padding: 0px;
+    background-color: #eee;
+    color: #333;
+}
+
+.photo {
+    float: right;
+    width: 300px;
+    
 }
 
 footer {
@@ -71,4 +95,21 @@ footer {
 
 .clear {
     clear: both;
+}
+
+
+
+/* Pending Code */
+.ul02, .li02, a {
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500px;
+    font-size: 14px;    
+    color: #0e6a6d;   
+    margin-right: 15px;
+    float: inline-start;
+}
+
+.ul02, .li02:hover a{
+    color: rgb(255, 0, 0); 
 }
